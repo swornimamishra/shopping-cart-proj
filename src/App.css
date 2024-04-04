@@ -1,0 +1,33 @@
+/* Styles for the search bar */
+.search_bar{
+  width: 70%;   /* Set the width of the search bar */
+
+}
+.search_bar input{
+  width: 55%; /* Set the width of the input field inside the search bar */
+  
+  /* text-align: center; */
+}
+/* if you want to style placeholder inside input to jaise niche likha h vaise likhe double colon laga kar */
+/* Styling for placeholder text inside the input */
+input::placeholder{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+/* Styles for the navigation bar wrapper */
+.nav-bar-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color:#500d8f;
+  color: white;
+  font-weight: bold;  /* Set the font weight of the text to bold */
+}
+/* Padding styles for elements with class 'py-4' */
+.py-4{
+  padding-top: 3rem; /* Set top padding to 3rem */
+  padding-bottom: 3rem; /* Set bottom padding to 3rem */
+}
+

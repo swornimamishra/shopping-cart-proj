@@ -1,0 +1,19 @@
+/* Styles for the image container */
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Styles for images inside the .img container */
+.img img{
+    width: 350px;
+    height: 350px;
+}
+/* Styles for the container */
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
